@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>COLUMNS IN CSS</title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!--script type="text/javascript" src="../js/script.js"></script-->
+	<script>
+        jQuery(document).ready(function( $ ) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+            jQuery(".card").append("<span class='date'>15 MAR 2017</span>");
+        });
+    </script>
+
+
+</head>
+<body>
+	<header>
+		<div id="header_container">
+			<a href="../../../index.html">
+				<h1><span id="main_text">Developers</span> club</h1>
+			</a>
+
+			<nav class="group">
+				<ul>
+					<li><a href="../../../index.html">home</a></li>
+					<li><a href="../templates.html" class="active">templates</a></li>
+					<li><a href="#">pricing</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="wrapper">
+
+			<div class="row">
+				<div class="col col-xs-12 col-sm-4">
+
+					<div class="author">
+						<img src="https://unsplash.it/200?image=532" id="avatar">
+						<div class="social_media">
+							<!--span id="in_touch">Get in touch with me:</span-->
+							<div class="links">
+								<i class="fa fa-linkedin" style="font-size: 13px;"></i>
+								<i class="fa fa-facebook" style="font-size: 13px;"></i>
+								<i class="fa fa-twitter" style="font-size: 13px;"></i>
+								<i class="fa fa-instagram" style="font-size: 13px;"></i>
+								<i class="fa fa-behance" style="font-size: 13px;"></i>
+								<i class="fa fa-snapchat" style="font-size: 13px;"></i>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="col col-xs-12 col-sm-8 info">
+					<!-- CODE GOES IN HERE -->
+					<h2 class="name"><i class="fa fa-user-circle-o icons" style="font-size: 15px"></i>&nbsp;&nbsp;Mrisho Abeid Omary</h2>
+					<p class="title"><i class="fa fa-briefcase icons" style="font-size: 13px"></i>&nbsp;&nbsp;&nbsp;&nbsp;Founder &amp; CEO of <a href="../../../index.html">Developers Club</a></p>
+					<p><i class="fa fa-clock-o icons" style="font-size: 15px"></i>&nbsp;&nbsp;&nbsp;&nbsp;15<sup>th</sup> March 2017</p>
+					<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare odio nulla, in porta neque viverra a. Donec ac efficitur enim. Curabitur vulputate placerat massa. Pellentesque laoreet porta turpis, in eleifend tellus imperdiet quis. Phasellus nisi magna, placerat fermentum leo ut, pellentesque commodo ligula. Nulla porttitor magna nec ligula aliquet, at varius augue tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc eu nulla eget nisi condimentum dapibus ut in neque. Integer eu diam auctor, sollicitudin erat eu, sodales arcu. Quisque dictum eu justo id placerat. Quisque posuere iaculis erat ut ultricies. Etiam ultrices sapien in dui pharetra rutrum. Donec placerat consequat metus, et convallis urna ultrices in.</p>
+				</div>
+			</div>
+
+			<hr class="underline">
+
+		</div>
+		
+	</main>
+
+	<i class="fa fa-arrow-circle-up" style="font-size: 30px"></i>
+
+	<footer>
+		<p>&copy; Copyright. All rights reserved @ <a href="#">The Developers Club</a>. &reg; 2017.</p>
+	</footer>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="../../js/jquery.counterup.min.js"></script>
+
+
+</body>
+</html>
