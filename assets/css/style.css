@@ -424,6 +424,112 @@ span#in_touch {
 	background-color: rgba(255,252,0 ,1);
 }
 
+.skills {
+	width: 100%;
+	height: auto;
+}
+
+.skill_type {
+	margin-bottom: 20px;
+}
+
+h3.skills_title {
+	color: rgba(0, 0, 0, .6);
+	text-transform: uppercase;
+	font-size: 65%;
+	margin: 0;
+	padding: 0;
+}
+
+h6.skills_name {
+	color: #fff;
+	font-weight: lighter;
+	font-size: 40%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-transform: uppercase;
+	bottom: 7px;
+	left: 10px;
+}
+
+.skills_item {
+	background-color: rgba(224,224,224 ,1);
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+
+.communication {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	width: 78%;
+	border-radius: 4px 0 0 4px;
+}
+
+.leadership {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 69%;
+	border-radius: 4px 0 0 4px;
+}
+
+.html {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 95%;
+	border-radius: 4px 0 0 4px;
+}
+
+.css {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 75%;
+	border-radius: 4px 0 0 4px;
+}
+
+.java {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 36%;
+	border-radius: 4px 0 0 4px;
+}
+
+.sql {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 64%;
+	border-radius: 4px 0 0 4px;
+}
+
+.jquery {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 22%;
+	border-radius: 4px 0 0 4px;
+}
+
+.php {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 9%;
+	border-radius: 4px 0 0 4px;
+}
+
+.photoshop {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	width: 64%;
+	border-radius: 4px 0 0 4px;
+}
+
+.illustrator {
+	background-color: rgba(47, 47, 47, 1);
+	height: 20px;
+	max-width: 23%;
+	border-radius: 4px 0 0 4px;
+}
+
 .info {
 	background-color: rgba(250,250,250 ,1);
 	padding: 20px;
